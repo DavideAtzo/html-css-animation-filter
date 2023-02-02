@@ -146,7 +146,19 @@ ESERCIZIO 10
 */
 .ex-10-icon {
     font-size: 60px;
+    animation: turn 1s infinite;
 }
+@keyframes turn {
+    0% {
+        transform: rotate(360deg);
+    }
+}
+
+/* 
++++++++++++++
+ESERCIZIO 11
++++++++++++++
+*/
 .ex-11-icon {
     font-size: 60px;
 }
