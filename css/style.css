@@ -183,7 +183,7 @@ ESERCIZIO 11
 
 /* 
 +++++++++++++
-ESERCIZIO 12
+ESERCIZIO 12-13
 +++++++++++++
 */
 .ex-12-button, .ex-13-button {
@@ -198,6 +198,7 @@ ESERCIZIO 12
     line-height: 70px;
     text-align: center;
     text-decoration: none;
+
 }
 .ex-12-top-white, .ex-13-top-white {
     position: absolute;
@@ -206,6 +207,7 @@ ESERCIZIO 12
     background: #f5f5f5;
     width: 60px;
     height: 20px;
+
 }
 .ex-12-bottom-white, .ex-13-bottom-white {
     position: absolute;
@@ -214,4 +216,38 @@ ESERCIZIO 12
     background: #f5f5f5;
     width: 60px;
     height: 20px;
+    animation: 3s;
+
+}
+
+.ex-12-button:hover .ex-12-top-white{
+    animation: top-btn 3s;
+}
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: bottom-btn 3s;
+}
+
+@keyframes top-btn{
+    0%{
+        left:10%;
+    }
+    50%{left: calc(10% + 40px)
+        
+    }
+    100%{
+        right: 10%;
+    }
+}
+
+
+@keyframes bottom-btn{
+    0%{
+        right:20%;
+    }
+    50%{right: calc(10% + 40px)
+        
+    }
+    100%{
+        right: 20%;
+    }
 }
