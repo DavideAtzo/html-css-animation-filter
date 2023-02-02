@@ -80,14 +80,48 @@ ESERCIZIO 4
     width: 60px;
     height: 60px;
     background: red;
+    transition: 3s;
 }
+
+.ex-5-square:hover {
+    width: 80px;
+    height: 80px;
+}
+.ex-5-square:active {
+    width: 40px;
+    height: 40px;
+}
+
+/* 
++++++++++++++
+ESERCIZIO 5
++++++++++++++
+*/
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
 
+.ex-7-img{
+    transition: 2s;
+}
+
+
+.ex-6-img:hover, .ex-7-img:hover, .ex-8-img:hover{
+    filter: grayscale(1);
+}
+.ex-8-img{
+    transition: 3s;
+}
+
+.ex-8-img:hover{
+    border-radius: 30px;
+}
+
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+
 }
 .ex-10-icon {
     font-size: 60px;
