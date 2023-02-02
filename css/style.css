@@ -94,7 +94,7 @@ ESERCIZIO 4
 
 /* 
 +++++++++++++
-ESERCIZIO 5
+ESERCIZIO 6-7-8
 +++++++++++++
 */
 .ex-6-img, .ex-7-img, .ex-8-img {
@@ -109,6 +109,10 @@ ESERCIZIO 5
 .ex-6-img:hover, .ex-7-img:hover, .ex-8-img:hover{
     filter: grayscale(1);
 }
+.ex-7-img:hover, .ex-8-img:hover{
+    filter: sepia(1);
+}
+
 .ex-8-img{
     transition: 3s;
 }
@@ -116,13 +120,30 @@ ESERCIZIO 5
 .ex-8-img:hover{
     border-radius: 30px;
 }
-
+/* 
++++++++++++++
+ESERCIZIO 9
++++++++++++++
+*/
 
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
-
+    transition: 3s;
 }
+
+.ex-9-img:hover{
+    width: 500px;
+    border-radius: 30px;
+    filter: sepia(1) grayscale(1);
+}
+
+
+/* 
++++++++++++++
+ESERCIZIO 10
++++++++++++++
+*/
 .ex-10-icon {
     font-size: 60px;
 }
